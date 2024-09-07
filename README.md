@@ -1,0 +1,2 @@
+# NoteSite
+Java learning project
