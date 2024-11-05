@@ -1,0 +1,15 @@
+server:
+    port: 8080
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.176:3306/note_site?userSSL=false&serverTimezone=UTC
+    username: edge51
+    password: root
+mybatis-plus:
+    configuration:
+        map-underscore-to-camel-case: true
+logging:
+    level:
+        '[com.edge51.notesite]': debug
